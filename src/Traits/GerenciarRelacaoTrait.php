@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace CleisonFreitas\AssociationControl\Traits;
 
-use App\EloquentRelations\RegraRelacao\RegraRelacao;
+use CleisonFreitas\AssociationControl\EloquentRelations\RegraRelacao\RegraRelacao;
 
 trait GerenciarRelacaoTrait
 {

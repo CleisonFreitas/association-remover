@@ -18,7 +18,8 @@ abstract class MultiServicosRelacoes
     public function removerBelongsToMany(Model $model, string $relacao): bool
     {
         try {
-            return $model->$relacao()->detach();
+            $model->$relacao()->detach();
+            return true; 
         } catch (ModelNotFoundException $ex) {
             return false;
         }
@@ -53,7 +54,8 @@ abstract class MultiServicosRelacoes
     public function removerHasOne(Model $model, string $relacao): bool
     {
         try {
-            return $model->$relacao()->delete();
+            $model->$relacao()->delete();
+            return true;
         } catch (ModelNotFoundException $ex) {
             return false;
         }
