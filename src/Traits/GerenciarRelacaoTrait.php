@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Traits;
+namespace CleisonFreitas\AssociationControl\Traits;
 
 use App\EloquentRelations\RegraRelacao\RegraRelacao;
 
