@@ -1,0 +1,23 @@
+{
+    "name": "cleisonfreitas/association-remover",
+    "description": "Esse pacote possibilita ao usuário realizar a exclusão de um registro em modelo cascata.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cleison Freitas",
+            "email": "cleison51@hotmail.com"
+
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            {
+                "CleisonFreitas\\AssociationControl\\": "src/"
+            }
+        ]
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+
+}
